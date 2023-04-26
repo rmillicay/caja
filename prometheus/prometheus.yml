@@ -1,0 +1,11 @@
+# my global config
+global:
+        scrape_interval:     30s
+        evaluation_interval: 30s
+
+scrape_configs:
+        - job_name: 'Ubuntu Server 22.04'
+          static_configs:
+            - targets: ['192.168.0.113:9100']
+            - targets: ['192.168.0.115:9100']
+
