@@ -1,0 +1,2 @@
+Node Exporter Full  1860
+Windows Exporter    14694 10467
